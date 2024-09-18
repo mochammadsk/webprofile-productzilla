@@ -1,7 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f4f4f4;
+  margin: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #f9fbfd;
+  text-align: justify;
+}
+
+.layout {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  padding: 50px;
 }
 
 h1,
@@ -28,8 +37,8 @@ ol {
 }
 
 .profile img {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -42,6 +51,24 @@ ol {
 .profile-info h3 {
   display: block;
   margin: 10px 0 0 0;
+}
+
+.education em {
+  line-height: 1.5;
+}
+
+.education p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.experience em {
+  line-height: 1.5;
+}
+
+.experience p {
+  margin-top: 0;
+  line-height: 1.5;
 }
 
 table {
