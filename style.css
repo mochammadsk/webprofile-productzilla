@@ -53,7 +53,9 @@ ol {
   margin: 10px 0 0 0;
 }
 
-.profile-description {
+.profile-description,
+.experience,
+.form {
   margin: 45px 0 45px 0;
 }
 
@@ -64,10 +66,6 @@ ol {
 .education p {
   margin-top: 0;
   line-height: 1.5;
-}
-
-.experience {
-  margin: 45px 0 45px 0;
 }
 
 .experience em {
@@ -96,10 +94,6 @@ td {
 th {
   background-color: #2c3e50;
   color: white;
-}
-
-.form {
-  margin: 45px 0 45px 0;
 }
 
 input[type="text"],
