@@ -33,12 +33,8 @@ toggleButton.addEventListener("click", function () {
   document.body.classList.toggle("night-mode");
 
   if (document.body.classList.contains("night-mode")) {
-    buttonText.textContent = "Disable Night Mode";
-    toggleButton.innerHTML =
-      '<i class="fas fa-sun"></i> <span id="buttonText">Disable Night Mode</span>';
+    toggleButton.textContent = "Disable Night Mode";
   } else {
-    buttonText.textContent = "Enable Night Mode";
-    toggleButton.innerHTML =
-      '<i class="fas fa-moon"></i> <span id="buttonText">Enable Night Mode</span>';
+    toggleButton.textContent = "Enable Night Mode";
   }
 });
