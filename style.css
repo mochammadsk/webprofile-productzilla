@@ -129,4 +129,7 @@ body.night-mode .layout {
   border: none;
   cursor: pointer;
   margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

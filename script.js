@@ -27,18 +27,18 @@ let words = "";
   setTimeout(ngetik, 250);
 })();
 
-// Dapatkan referensi ke tombol
 const toggleButton = document.getElementById("toggleButton");
 
-// Tambahkan event listener ke tombol
 toggleButton.addEventListener("click", function () {
-  // Toggle class 'night-mode' pada elemen body
   document.body.classList.toggle("night-mode");
 
-  // Ubah teks tombol berdasarkan mode saat ini
   if (document.body.classList.contains("night-mode")) {
-    toggleButton.textContent = "Disable Night Mode";
+    buttonText.textContent = "Disable Night Mode";
+    toggleButton.innerHTML =
+      '<i class="fas fa-sun"></i> <span id="buttonText">Disable Night Mode</span>';
   } else {
-    toggleButton.textContent = "Enable Night Mode";
+    buttonText.textContent = "Enable Night Mode";
+    toggleButton.innerHTML =
+      '<i class="fas fa-moon"></i> <span id="buttonText">Enable Night Mode</span>';
   }
 });
