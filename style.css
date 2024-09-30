@@ -115,3 +115,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #34495e;
 }
+
+/* Gaya untuk mode malam */
+body.night-mode .layout {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+}
